@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 const dotenv = require("dotenv").config();
-mongoose.connect("😁",{ useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect("",{ useNewUrlParser: true, useUnifiedTopology: true })
 .then(response=>{
   console.log("base de datos conectada")
 })
